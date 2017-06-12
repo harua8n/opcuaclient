@@ -39,8 +39,8 @@ public class OpcUaHelper {
         return ret_val;
     }
 
-    public String Read(String path){
-        String ret = "";
+    public Variant Read(String path){
+        Variant ret=null;
         if(!createUaApp()) {return ret;}
 
         try {
@@ -50,7 +50,7 @@ public class OpcUaHelper {
                     TimestampsToReturn.Source,
                     new ReadValueId(NodeId.parseNodeId(path), Attributes.Value, null, null)
             );
-            ret = ret + readResponse.getResults()[0].getValue().toString();
+            ret = readResponse.getResults()[0].getValue();
         } catch (ServiceResultException e) {
             e.printStackTrace();
             if(0x800D0000L == e.getStatusCode().getValue().getValue()) //Bad_ServerNotConnected (code=0x800D0000, description="The operation could not complete because the client is not connected to the server.")
@@ -114,9 +114,30 @@ public class OpcUaHelper {
         return ret;
     }
 
+    public boolean Write(String path, Variant val)
+    {
+        NodeId nodeId= NodeId.parseNodeId(path);
+        WriteValue writeValue[] = new WriteValue[1];
+        DataValue dataValue = new DataValue(val);
+
+        writeValue[0] = new WriteValue(nodeId, Attributes.Value, "", dataValue);
+        WriteRequest writeRequest = new WriteRequest(null, writeValue);
+
+        try {
+            WriteResponse response = uaSession.Write(writeRequest);
+//            System.out.println(response);
+        } catch (ServiceResultException e) {
+            e.printStackTrace();
+        }
+
+        return false;
+    }
+
     public void Close() {
         try {
+            System.out.println("Closing...");
             uaSession.close();
+            System.out.println("Closing...done");
         } catch (ServiceResultException e) {
             e.printStackTrace();
         }
