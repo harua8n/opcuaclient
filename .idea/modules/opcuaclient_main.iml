@@ -21,97 +21,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/opc-ua-stack-1.03.341.0-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/opc-ua-stack-1.03.341.0-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/bcpkix-jdk15on-1.54.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/bcprov-jdk15on-1.54.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/commons-codec-1.9.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/commons-logging-1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/core-1.54.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpclient-4.5.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpcore-4.4.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpcore-nio-4.4.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/pkix-1.54.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/slf4j-api-1.7.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -129,7 +39,97 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/slf4j-api-1.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/pkix-1.54.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpcore-nio-4.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpcore-4.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/httpclient-4.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/core-1.54.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/commons-codec-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/bcprov-jdk15on-1.54.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../build/tmp/expandedArchives/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip_9un83kp5drh89u4ddx6urwzjn/opc-ua-stack-1.03.341.0-SNAPSHOT/lib/bcpkix-jdk15on-1.54.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/opc-ua-stack-1.03.341.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/opc-ua-stack-1.03.341.0-SNAPSHOT-sources.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

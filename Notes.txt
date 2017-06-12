@@ -1,0 +1,6 @@
+Create fat jar
+gradle fatjar
+
+Run fatjar
+in build\libs, run
+java -cp opcuaclient-0.0.0-SNAPSHOT-all.jar io.github.harua8n.opcuaclient.OpcUaClient url nodeId
