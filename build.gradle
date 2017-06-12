@@ -13,6 +13,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile zipTree('libs/opc-ua-stack-1.03.341.0-SNAPSHOT-dependencies.zip')
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
 }
 
 task fatJar(type: Jar) {
