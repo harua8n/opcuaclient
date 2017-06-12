@@ -114,10 +114,6 @@ public class OpcUaHelper {
         return ret;
     }
 
-    public void setUrl(String url){
-        this.url = url;
-    }
-
     public void Close() {
         try {
             uaSession.close();
